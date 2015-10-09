@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="md_color_primary">#203C52</color>
+    <color name="md_color_primary_dark">#203C52</color>
+    <color name="md_color_accent">#203C52</color> -->
+    <color name="actionsheet_blue">#51C4D4</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    
+    <color name="md_color_primary">#E76F35</color>
+    <color name="md_color_primary_dark">#E76F35</color>
+    <color name="md_color_accent">#E76F35</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_black">#212121</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <color name="gray_bg">#F6F6F6</color>
+
+    <color name="layout_bg_pressed">#EBEBEB</color>
+    <color name="btn_bg_pressed">#D16E44</color>
+    <color name="login_bg">#DCDEE3</color>
+    <color name="login_setting_bg">#22000000</color>
+    
+    <color name="house_project_module_text_color">#848484</color>
+    
+    <color name="menu_text">#8F8F8F</color>
+    <color name="menu_divider">#DEDEDE</color>
+    
+    <color name="home_tab_divider">#E4E4E4</color>
+    
+    <color name="settings_bg">#F7F7F7</color>
+    <color name="settings_divider">#E0E0E0</color>
+    <color name="settings_edit">#B6B6B6</color>
+    
+    <color name="building_info_bg">#E6E6E6</color>
+    <color name="building_info_gray_text">#848484</color>
+    <color name="building_info_detail_text">#1B599B</color>
+    <color name="building_info_divider">#D3D3D3</color>
+    
+    <color name="choose_project_bg">#E6E6E6</color>
+    <color name="choose_project_divider">#D3D3D3</color>
+    
+    <color name="building_search_divider">#D3D3D3</color>
+
+
+    <!-- Backlog fragment-->
+    <color name="header_normal">#ffe74c3c</color>
+    <color name="header_pressed">#ffc0392b</color>
+    <color name="menu_section_header">#FFDDDDDD</color>
+    
+    <color name="imageloader_default_color">#F2F2F2</color>
+    
+    <color name="backlog_interest_degree_hight">#E76F35</color>
+    <color name="backlog_interest_degree_general">#F5A623</color>
+    <color name="backlog_interest_degree_no">#9B9B9B</color>
+    <color name="backlog_interest_degree_buy">#D0021B</color>
+    
+</resources>

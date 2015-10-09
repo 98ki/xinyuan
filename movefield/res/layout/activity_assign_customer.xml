@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <com.xlj.erp.movefield.widget.SegmentControl
+            android:id="@+id/segment_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            app:checkedTextColor="@color/white"
+            app:colors="@color/md_color_primary"
+            app:cornerRadius="4dp"
+            app:direction="horizon"
+            app:horizonGap="16dp"
+            app:texts="逾期跟进|销售线索"
+            app:verticalGap="8dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/menu_divider" />
+
+    <com.xlj.erp.movefield.widget.MultiStateView
+        android:id="@+id/multiStateViewYqgj"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:msv_emptyView="@layout/layout_empty_view"
+        app:msv_errorView="@layout/layout_error_view"
+        app:msv_loadingView="@layout/layout_loading_view"
+        app:msv_viewState="loading" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_yqgj"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </com.xlj.erp.movefield.widget.MultiStateView>
+
+    <com.xlj.erp.movefield.widget.MultiStateView
+        android:id="@+id/multiStateViewXsxs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        app:msv_emptyView="@layout/layout_empty_view"
+        app:msv_errorView="@layout/layout_error_view"
+        app:msv_loadingView="@layout/layout_loading_view"
+        app:msv_viewState="loading" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_xsxs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </com.xlj.erp.movefield.widget.MultiStateView>
+
+    <Button
+        android:id="@+id/assign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn"
+        android:text="分配"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

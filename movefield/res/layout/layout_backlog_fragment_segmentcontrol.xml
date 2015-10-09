@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xlj.erp.movefield.widget.SegmentControl xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/segment_control"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="18sp"
+    app:colors="@color/white"
+    app:checkedTextColor="@color/md_color_primary"
+    app:cornerRadius="4dp"
+    app:direction="horizon"
+    app:texts="待办提醒|业务催办"
+    app:horizonGap="16dp"
+    app:verticalGap="8dp"/>

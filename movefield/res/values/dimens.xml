@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="loading_dialog_width">140dp</dimen>
+    <dimen name="loading_dialog_height">140dp</dimen>
+    <dimen name="banner_view_indicator">6dp</dimen>
+    
+    <dimen name="backlog_child_item_divider_margin_left">28dp</dimen>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/settings_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <ImageView
+            android:id="@+id/header_sticky_list_header_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_backlog_list_header_divider"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_backlog_header"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/header_sticky_list_header_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_backlog_list_header_divider"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/header_sticky_list_header_icon"
+            android:textColor="#808080"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

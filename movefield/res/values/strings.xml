@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">鑫乐居</string>
+    <string name="app_full_name">鑫乐居移动案场</string>
+    <string name="draw_open">打开</string>
+    <string name="draw_close">关闭</string>
+    <string name="add_tag">Add Tag</string>
+    
+    <string name="ok">完成</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="square_meter">㎡</string>
+    
+    <string name="loading">加载中...</string>
+    <string name="no_result">没有数据</string>
+    <string name="something_wrong">出错了，点击重试</string>
+    
+    <string name="network_or_server_invalid">网络连接或服务不可用</string>
+    <string name="response_invalid">网络请求数据有误</string>
+    <string name="response_json_invalid">网络连接有异常，请重试</string>
+    
+    <string name="title_settings">设置</string>
+    <string name="title_house_project">项目楼盘</string>
+    <string name="title_choose_project">项目切换</string>
+    <string name="title_project_info">楼盘信息</string>
+    <string name="title_design_sketch">效果图</string>
+    <string name="title_house_search">房屋查询</string>
+    <string name="title_mortgage_calc">试算价格</string>
+    <string name="title_promote_room">主推户型</string>
+    <string name="title_house_type_image">户型图</string>
+    
+    
+    <string name="login_username">账号</string>
+    <string name="login_password">密码</string>
+    <string name="login_remember">记住密码</string>
+    <string name="login_auto_login">自动登录</string>
+    <string name="login">登录</string>
+    <string name="login_failure">账号或者密码错误，请重试</string>
+    <string name="login_username_password_null_tip">请输入账号或密码</string>
+    <string name="login_user_no_project_tip">该用户没有工程</string>
+    
+    <string name="settings_server">服务器</string>
+    <string name="settings_clean_cache">清除缓存</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_server_null_tip">请输入服务器地址</string>
+    <string name="settings_complete">设置完成</string>
+    
+    <string name="menu_switch_project">项目切换</string>
+    <string name="menu_my_message">我的消息</string>
+    <string name="menu_logout">注销账户</string>
+    <string name="menu_authority_manager">置业顾问</string>
+    <string name="menu_authority_salesman">案场经理</string>
+    
+    
+    <string name="home_tab_house_project">楼盘</string>
+    <string name="home_tab_backlog">待办</string>
+    <string name="home_tab_customer">客户</string>
+    <string name="home_tab_sale_analysis">报表</string>
+    <string name="home_tab_field_monitor">报表</string>
+    
+    
+    <string name="house_project_building_info">楼盘信息</string>
+    <string name="house_project_promote_room">主推户型</string>
+    <string name="house_project_design_sketch">效果图</string>
+    <string name="house_project_register_customer">登记新客户</string>
+    <string name="house_project_mortgage_calc">房贷计算器</string>
+    <string name="house_project_saleskits">销售资料</string>
+    <string name="house_project_house_search">房屋查询</string>
+    
+	<string name="building_info_avg_price">均价：</string>
+	<string name="building_info_rmb_per_square_meter">元/平米</string>
+	<string name="building_info_open_time">开盘时间：</string>
+	<string name="building_info_type">类型：</string>
+	<string name="building_info_checkin_time">入住时间：</string>
+	<string name="building_info_detail">详细信息</string>
+	<string name="building_info_plotratio">容积率</string>
+	<string name="building_info_greening_rate">绿化率</string>
+	<string name="building_info_building_type">建筑类型</string>
+	<string name="building_info_decoration">装修情况</string>
+	<string name="building_info_property_right_time">产权</string>
+	
+	<string name="choose_project_null_tip">请选择项目</string>
+	
+	<string name="daysalestatus_registerinfo">本日登记客户</string>
+	<string name="weeksalestatus_registerinfo">本周登记客户</string>
+	<string name="monthsalestatus_registerinfo">本月等级客户</string>
+	
+	<string name="daysalestatus_receptioninfo">本日接待</string>
+	<string name="weeksalestatus_receptioninfo">本周接待</string>
+	<string name="monthsalestatus_receptioninfo">本月接待</string>
+	
+	<string name="daysalestatus_visitinfo">本日回访</string>
+	<string name="weeksalestatus_visitinfo">本周回访</string>
+	<string name="monthsalestatus_visitinfo">本月回访</string>
+	
+	<string name="daysalestatus_subscribeinfo">本日认购</string>
+	<string name="weeksalestatus_subscribeinfo">本周认购</string>
+	<string name="monthsalestatus_subscribeinfo">本月认购</string>
+	
+	<string name="daysalestatus_signinfo">本日签约</string>
+	<string name="weeksalestatus_signinfo">本周签约</string>
+	<string name="monthsalestatus_signinfo">本月签约</string>
+	
+	<string name="daysalestatus_signamount">本日签约金额</string>
+	<string name="weeksalestatus_signamount">本周签约金额</string>
+	<string name="monthsalestatus_signamount">本月签约金额</string>
+	
+	
+	
+</resources>

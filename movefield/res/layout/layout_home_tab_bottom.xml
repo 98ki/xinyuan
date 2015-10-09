@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/home_tab_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <com.xlj.erp.movefield.view.HomeTabView
+            android:id="@+id/home_tab_house_project"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon_checked="@drawable/ic_house_project_checked"
+            app:tab_icon_normal="@drawable/ic_house_project_normal"
+            app:tab_text="@string/home_tab_house_project" />
+
+        <com.xlj.erp.movefield.view.HomeTabView
+            android:id="@+id/home_tab_backlog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon_checked="@drawable/ic_backlog_checked"
+            app:tab_icon_normal="@drawable/ic_backlog_normal"
+            app:tab_text="@string/home_tab_backlog" />
+
+        <com.xlj.erp.movefield.view.HomeTabView
+            android:id="@+id/home_tab_customer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon_checked="@drawable/ic_customer_checked"
+            app:tab_icon_normal="@drawable/ic_customer_normal"
+            app:tab_text="@string/home_tab_customer" />
+
+        <com.xlj.erp.movefield.view.HomeTabView
+            android:id="@+id/home_tab_sale_analysis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon_checked="@drawable/ic_analysis_checked"
+            app:tab_icon_normal="@drawable/ic_analysis_normal"
+            app:tab_text="@string/home_tab_sale_analysis" />
+
+        <com.xlj.erp.movefield.view.HomeTabView
+            android:id="@+id/home_tab_field_monitor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon_checked="@drawable/ic_analysis_checked"
+            app:tab_icon_normal="@drawable/ic_analysis_normal"
+            app:tab_text="@string/home_tab_field_monitor" />
+    </LinearLayout>
+
+</LinearLayout>

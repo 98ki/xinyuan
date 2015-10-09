@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_layout"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="3dp">
+
+    <ImageView
+        android:id="@+id/iv_item_project_file_doc_type"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/tv_item_project_file_doc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/iv_item_project_file_doc_type"
+        android:text="aaa"
+        android:singleLine="true"
+        android:textColor="@color/light_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_item_project_file_time_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="创建于："
+        android:layout_toRightOf="@id/iv_item_project_file_doc_type"
+        android:singleLine="true"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:layout_below="@+id/tv_item_project_file_doc_name" />
+    <TextView
+        android:id="@+id/tv_item_project_file_upload_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="bbb"
+        android:layout_toRightOf="@id/tv_item_project_file_time_type"
+        android:singleLine="true"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:layout_below="@+id/tv_item_project_file_doc_name" />
+    <ImageView
+        android:id="@+id/iv_item_project_file_is_new"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/progressBar"
+        android:layout_alignParentBottom="true"
+        android:progressDrawable="@drawable/bg_download_progress"/>
+
+
+</RelativeLayout>
